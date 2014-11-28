@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         stopOnFailure="true"
+         syntaxCheck="true"
+         bootstrap="vendor/autoload.php"
+>
+    <testsuites>
+        <testsuite name="SimpleWrap">
+            <directory>./test/</directory>
+        </testsuite>
+    </testsuites>
+        <log
+                type="coverage-html"
+                target="./test/coverage"
+                charset="UTF-8"
+                yui="true"
+                showUncoveredFiles="true"
+                />
+</phpunit>

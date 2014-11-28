@@ -1,0 +1,25 @@
+{
+  "name": "R/SimpleWrap",
+  "homepage": "https://github.com/",
+  "description": "Small Wraps for natives",
+  "keywords": ["globals"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ronnie Skansing",
+      "email": "rskansing@gmail.com",
+      "role": "Dinosaur"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "R\\": "src/"
+    }
+  }
+}
